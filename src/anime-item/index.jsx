@@ -2,7 +2,7 @@
 import "./style.css"
 
 const Animeitem = (props) => {
-    const{id,image,title,airingstatus,rank,rating,url} = props
+    const{image,title,airingstatus,rank,rating,url} = props
     return (
         <div>
             <img className="image" src={image} alt={title} />
