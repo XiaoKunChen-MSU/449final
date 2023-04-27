@@ -21,7 +21,7 @@ const Search = (props) => {
     return (
         <div className="search">
             <form className="search" onSubmit = {handlesubmit}>
-                <input className="inputbox" onChange={handleinputvalue} value={inputvalue} placeholder="Enter anime name. e.g. Naruto" />
+                <input className="inputbox" onChange={handleinputvalue} value={inputvalue} placeholder="Enter an anime name. e.g. Naruto" />
                 <button className="searchbtn">search</button>  
             </form>
         </div>

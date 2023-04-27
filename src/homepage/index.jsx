@@ -1,8 +1,7 @@
 import { useState } from "react";
 import Animeitem from "../anime-item";
 import Search from "../components/search";
-
-
+import "./style.css"
 
 
 
@@ -34,8 +33,7 @@ const Homepage = () => {
     console.log(loadingstate,animes);
 
     return (
-        <div className="homepage">
-         
+        <div className="homepage">  
             <Search getdatafromsearchcomponent={getdatafromsearchcomponent} />
             {
                 loadingstate && (
