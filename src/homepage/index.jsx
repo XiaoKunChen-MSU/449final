@@ -34,6 +34,9 @@ const Homepage = () => {
 
     return (
         <div className="homepage">  
+            <div className="web-top">
+                 <h1>Anime Search Engine</h1>
+            </div>
             <Search getdatafromsearchcomponent={getdatafromsearchcomponent} />
             {
                 loadingstate && (
@@ -52,6 +55,7 @@ const Homepage = () => {
                 rank = {item.rank}
                 rating = {item.rating}
                 url = {item.url}
+                tit2 ={item.title_japanese}
                 />):null
             }
             
