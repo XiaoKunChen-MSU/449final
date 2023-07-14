@@ -1,11 +1,8 @@
 import { useState } from "react";
-import { useEffect} from "react";
+import { useEffect } from "react";
 import Animeitem from "../anime-item";
 import Search from "../components/search";
 import "./style.css"
-
-
-
 
 const Homepage = () => {
     const [loadingstate, setloadingstate] = useState(false);
@@ -59,6 +56,7 @@ const Homepage = () => {
                 rating = {item.rating}
                 url = {item.url}
                 tit2 ={item.title_japanese}
+                episodes = {item.episodes}
                 />):null
             }
             
