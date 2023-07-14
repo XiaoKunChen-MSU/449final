@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useEffect} from "react";
 import Animeitem from "../anime-item";
 import Search from "../components/search";
 import "./style.css"
