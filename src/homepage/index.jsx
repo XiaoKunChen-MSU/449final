@@ -30,6 +30,8 @@ const Homepage = () => {
         getanimes();
     };
 
+    useEffect(() => getdatafromsearchcomponent('');},[]);
+
     console.log(loadingstate,animes);
 
     return (
